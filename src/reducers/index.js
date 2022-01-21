@@ -6,7 +6,7 @@ export const initialState = {
     errorMessage: ''
 }
 
-export const reducer = (state = initialState, action)=>{
+const reducer = (state = initialState, action)=>{
     switch (action.type) {
         case FETCH_START:
             return {
@@ -50,7 +50,7 @@ export const reducer = (state = initialState, action)=>{
 };
 
 //**************DO NOT EDIT ANY CODE BEYOND THIS POINT**************//
-// export default reducer;
+export default reducer;
 
 //Task List:
 //1. Adds the following state values into the initialState:
